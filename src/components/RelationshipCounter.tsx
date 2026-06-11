@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useRelationshipTime } from '@/hooks/useRelationshipTime';
 import AnimatedReveal from './AnimatedReveal';

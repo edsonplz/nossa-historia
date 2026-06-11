@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Award, CheckCircle, XCircle, RefreshCw, Utensils, MessageCircle } from 'lucide-react'; // Adicionado MessageCircle
 import { quizQuestions } from '@/data/quiz';

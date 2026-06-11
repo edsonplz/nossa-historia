@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import confetti from 'canvas-confetti';
 import Hero from '@/sections/Hero';
 import MusicPlayer from '@/components/MusicPlayer';

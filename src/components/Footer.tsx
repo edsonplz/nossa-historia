@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Footer() {
   const anoAtual = new Date().getFullYear();
 

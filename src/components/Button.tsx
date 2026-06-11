@@ -1,8 +1,10 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+// SEPARADO: 'motion' é um componente real, 'HTMLMotionProps' é apenas um tipo
+import { motion } from 'framer-motion'; 
+import type { HTMLMotionProps } from 'framer-motion'; 
 import { cn } from '@/utils/cn';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends HTMLMotionProps<'button'> {
   variant?: 'primary' | 'secondary';
   children: React.ReactNode;
 }

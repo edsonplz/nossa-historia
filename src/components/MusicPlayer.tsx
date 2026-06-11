@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Music, VolumeX, Volume2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import musicaTema from '../assets/audio/musicatema.mp3'; // Certifique-se de ter um arquivo de áudio válido aqui
