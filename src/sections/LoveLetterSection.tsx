@@ -34,7 +34,7 @@ export default function LoveLetterSection() {
 
       <div className="max-w-3xl mx-auto px-6 relative z-10">
         <SectionTitle 
-          title="Minha Promessa Para Você" 
+          title="Cartinha Para Você" 
           subtitle="Palavras que vêm direto do coração, escritas para lembrar o quanto você é importante." 
         />
 
